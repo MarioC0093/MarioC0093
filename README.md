@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+1,1,2,3,5,8,13,21...
+
 <!--
 **MarioC0093/MarioC0093** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
