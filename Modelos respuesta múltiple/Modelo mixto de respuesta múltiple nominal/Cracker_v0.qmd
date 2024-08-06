@@ -1,0 +1,166 @@
+---
+title: "Choice of Brand for Crackers"
+author: "Mario Camacho"
+format:
+  html:
+    toc: TRUE
+    toc-location: left
+    toc-title: Índice
+    toc-expand: TRUE
+editor: visual
+page-layout: full
+knitr:
+  opts_chunk: 
+    R.options:
+      width: 110
+code-fold: true
+---
+
+```{r}
+#| output: false
+library(tidyverse)
+library(Ecdat)
+library(rpivotTable)
+```
+
+
+# Database
+
+## Descripción
+
+En este caso de uso utilizamos la base de datos Cracker del paquete Ecdat sobre la elección de un individuo de una marca de galletas saladas entre cuatro opciones posibles. (Sunshine, Kleebler, Nabisco y Private)
+
+La base de datos contiene 3.292 registros y dentro de cada fila tenemos:
+
+- **id**: individuals identifiers  
+- **choice**: one of sunshine, kleebler, nabisco, private  
+- **disp.z**: is there a display for brand z ?  
+- **feat.z**: is there a newspaper feature advertisement for brand z ?  
+- **price.z**: price of brand z
+
+```{r}
+summary(Cracker)
+```
+
+## Datos por individuo
+
+
+Se han recogido datos de 136 individuos. Cada individuo tiene de media 21 registros.
+
+```{r}
+Cracker |> select(id) |> table() |> as.data.frame() |> select(Freq) |> summary()
+```
+
+
+Tomamos de ejemplo algunos de los registros del id 1.
+```{r}
+Cracker |> filter(id==1) |> head(5)
+```
+
+## Distribución de las preferencias
+
+Para cada usuario contamos el número de veces que ha elegido cada una de las marcas.
+
+```{r}
+data_0 <- 
+Cracker |> select(id, choice) |> group_by_all() |> count(,.drop = FALSE)  |> ungroup() |> mutate(p = n/sum(n), .by=id) |> 
+  #mutate(scale = scale(p, scale = FALSE), .by=id) |> 
+  arrange(id,-n) |> mutate(preference = row_number(), .by=id)
+```
+
+El individuo 1 ha elegido la marca Nabisco en el 87.5 % de las veces.
+```{r}
+#| echo: false
+data_0 |> head(8)
+```
+
+La distribución de la preferencia de cada marca:
+```{r}
+#| layout-ncol: 3
+data_0 |> select(choice, preference) |> table() |> addmargins()
+round(
+  data_0 |> select(choice, preference) |> table() |> prop.table(1)*100, 2
+) |> addmargins()
+```
+
+
+## Escala
+
+Creamos una escala teniendo en cuenta las preferencias del individuo e incluyendo el porcentaje de veces que elige cada una de las marcas sobre el total de sus elecciones.
+
+
+```{r}
+data_1 <- 
+data_0 |> mutate(scale = scale(p, scale = FALSE), .by=id)
+```
+
+Esta escala tiene una relación directa con la proporción de cada una de las elecciones. Se mueve entre los valores -0.25 y 0.75.
+
+* El valor -0.25 si esa marca nunca ha sido elegida por el individuo (p=0).
+* El valor 0.75 si es la única marca elegida por el usuario (p=1).
+
+```{r}
+data_1 |> select(choice, p, scale) |> summary()
+```
+
+Si las elecciones fueran fruto del azar, cada marca sería elegida un 25 % por cada individuo. Con la escala creado cuantificamos cuánto se desvía la proporción de cada elección sobre este porcentaje esperado.
+
+```{r}
+data_1 |> filter(id==1)
+```
+
+Los individuos 7 y 123 han hecho un total de 17 elecciones siendo su marca preferida Nabisco.
+
+```{r}
+data_1 |> filter(id %in% c(7,123))
+```
+
+# Análisis exploratorio
+
+Existen tres registros donde el precio de la marca Nabisco es cero. Puede deberse a alguna oferta que no tengamos recogida o error en los datos. Eliminamos estos registros
+
+```{r}
+#| echo: fenced
+Cracker |> filter(price.nabisco==0) |> select(c(contains('nabisco'),'choice'))
+Cracker_clean <- Cracker |> filter(price.nabisco>0) 
+```
+
+Definimos el precio de la marca elegida por el usuario y lo enfrentamos al precio medio de las elecciones que tenía el individuo.
+
+```{r}
+data_2 <- Cracker_clean |> mutate(precio_medio = (price.sunshine + price.kleebler + price.nabisco + price.private) / 4,
+                                         precio_preferencia = case_when(choice == "sunshine" ~ price.sunshine,
+                                                                        choice == "kleebler" ~ price.kleebler,
+                                                                        choice == "nabisco" ~ price.nabisco,
+                                                                        choice == "private" ~ price.private),
+                                         id=factor(id)) |>
+  select(precio_preferencia, precio_medio, id, choice)
+```
+
+
+```{r}
+data_2 |> ggplot() + geom_point(aes(x=precio_preferencia, y=precio_medio, colour = factor(choice))) +
+   geom_abline(intercept = 0) + xlim(30, 150) + ylim(30, 150)
+```
+
+
+```{r}
+summary(Cracker_clean |> select(contains('price')))
+```
+
+# Modelo predictivo
+
+## Objetivo
+
+Queremos predecir la preferencia de un individuo entre cuatro posibles marcas de galletas saladas en función de las características de venta de cada una de las marcas.
+
+## Enfoque del modelo
+
+La variable respuesta es la variable *choice*. Una variable nominal con cuatro categorías que identifica la marca preferida de cada individuo.
+
+Tenemos dos variables dicotómicas para cada marca. La variable *display* indica si la marca tenía un display o no. Y la variable *feat* indica si había un anuncio en el periódico o no.
+
+También la variable continua *price* sobre el precio de la marca.
+
+
+
