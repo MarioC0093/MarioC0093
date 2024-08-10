@@ -1,6 +1,6 @@
 # Hi there 👋
 
-1,1,2,3,5,8,13,21...
+1, 1, 2, 3, 5, 8, 13, 21...
 
 ## 💌 Contacto ⤵️
 
@@ -19,4 +19,5 @@
 
 ## Modelos de respuesta múltiple nominal
 GitHub: https://github.com/MarioC0093/modelos-respuesta-multiple-nominal
+
 Proyecto: https://marioc0093.github.io/modelos-respuesta-multiple-nominal/
