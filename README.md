@@ -2,6 +2,10 @@
 
 1, 1, 2, 3, 5, 8, 13, 21...
 
+<a align='left' href="https://github.com/MarioC0093" title="Perfil de Mario">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MarioC0093&theme=dracula&show_icons=true" />
+</a>
+
 ## 💌 Contacto ⤵️
 
 <p align="left">
@@ -15,9 +19,11 @@
   <img src="https://img.shields.io/badge/-Google Maps-brightgreen?style=flat-square&labelColor=white&logo=googlemaps&labelColor=white" alt="Maps"/></a>
 </p>
 
-# Repositorios
+[![GitHub](https://img.shields.io/github/followers/MarioC0093?label=follow&style=social)](https://github.com/MarioC0093)
+
+# Proyectos
 
 ## Modelos de respuesta múltiple nominal
-GitHub: https://github.com/MarioC0093/modelos-respuesta-multiple-nominal
+Repositorio: https://github.com/MarioC0093/modelos-respuesta-multiple-nominal
 
-Proyecto: https://marioc0093.github.io/modelos-respuesta-multiple-nominal/
+Publicación: https://marioc0093.github.io/modelos-respuesta-multiple-nominal/
