@@ -23,7 +23,14 @@
 
 # 📢 Proyectos
 
+### Dataviz
+
+Repositorio: https://github.com/MarioC0093/dataviz
+
+Publicación: https://marioc0093.github.io/dataviz/
+
 ### Modelos de respuesta múltiple nominal
+
 Repositorio: https://github.com/MarioC0093/modelos-respuesta-multiple-nominal
 
 Publicación: https://marioc0093.github.io/modelos-respuesta-multiple-nominal/
