@@ -1,4 +1,4 @@
-# Hi there 👋
+# 👋 Hi there
 
 1, 1, 2, 3, 5, 8, 13, 21...
 
@@ -21,9 +21,9 @@
 
 [![GitHub](https://img.shields.io/github/followers/MarioC0093?label=follow&style=social)](https://github.com/MarioC0093)
 
-# Proyectos
+# 📢 Proyectos
 
-## Modelos de respuesta múltiple nominal
+### Modelos de respuesta múltiple nominal
 Repositorio: https://github.com/MarioC0093/modelos-respuesta-multiple-nominal
 
 Publicación: https://marioc0093.github.io/modelos-respuesta-multiple-nominal/
