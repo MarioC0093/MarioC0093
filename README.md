@@ -45,8 +45,5 @@
 
   <a href="https://github.com/MarioC0093" title="GitHub" target="_blank">
   <img src="https://img.shields.io/github/followers/MarioC0093?label=Follow&style=social" alt="GitHub Followers"/> </a>
-
-
-  [![GitHub](https://img.shields.io/github/followers/MarioC0093?label=Follow&style=social)](https://github.com/MarioC0093)
 </p>
 
