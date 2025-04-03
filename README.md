@@ -11,13 +11,15 @@
 </div>
 
 ---
+## 🚀 Proyectos
 
-## 📢 Proyectos
-
-**Dataviz.** https://github.com/MarioC0093/dataviz
-
-**Modelos de respuesta múltiple nominal.** https://github.com/MarioC0093/modelos-respuesta-multiple-nominal
-
+| Proyecto | Descripción | Enlace |
+|---------|-------------|--------|
+| 📊 **Dataviz** | Portafolio de visualizaciones interactivas con `ggplot2`, `plotly` y `shiny`. Útil como plantilla para otros usuarios. | [🔗](https://github.com/MarioC0093/dataviz) |
+| 🧠 **NLP-Python** | Pipeline para procesamiento de lenguaje natural usando `spaCy`. Pensado como base para proyectos más complejos de IA generativa. | [🔗](https://github.com/MarioC0093/NPL-Python) |
+| 🐍 **Python-for-Quarto** | Repositorio de pruebas para crear HTML con Python y Quarto. Incluye una plantilla básica y un README explicativo. | [🔗](https://github.com/MarioC0093/Python-for-Quarto) |
+| 📈 **Modelos de respuesta múltiple nominal** | Ejemplo aplicado con la base Cracker para modelar respuestas categóricas nominales, con modelos de efectos fijos y aleatorios. | [🔗](https://github.com/MarioC0093/modelos-respuesta-multiple-nominal) |
+| 👥 **Software_GRUPAL_7** | Práctica de clase expositiva. Incluye código y explicación del desarrollo grupal. | [🔗](https://github.com/MarioC0093/Software_GRUPAL_7) |
 ---
 
 ## 🎵 Spotify
