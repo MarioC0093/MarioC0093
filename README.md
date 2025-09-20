@@ -2,15 +2,24 @@
 
 📌 *1, 1, 2, 3, 5, 8, 13, 21...*  
 
----
-
 ## 📊 GitHub Stats
 <div align="center">
   <img title="Stats" src="https://github-readme-stats.vercel.app/api?username=MarioC0093&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=true" height="180" alt="GitHub Stats" />
   <img title="Languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=MarioC0093&layout=compact&langs_count=5&theme=dracula&hide_border=true" height="180" alt="Languages Stats" />
 </div>
 
----
+## 👋 About me
+
+I’m a Senior Data Scientist with a strong background in Biostatistics.
+
+🔹 Experienced in designing, developing, and deploying predictive models (Logistic Regression, GAMs, XGBoost, classical Machine Learning and Deep Learning).  
+🔹 Skilled in Python (scikit-learn, XGBoost, NLP libraries) and R (ggplot2, dplyr, Quarto).  
+🔹 Strong expertise in descriptive analysis, reporting automation, metric definition and model validation.  
+🔹 Applied experience in healthcare projects, including predictive modeling with hospital data for clinical decision support. I have contributed through collaborations, internships, and publications at the Torrejón University Hospital and the Gregorio Marañón Hospital.  
+🔹 Teaching experience at CEMP, where I’ve shared knowledge in applied statistics and data science.
+
+Outside of work, I enjoy combining data science with creativity like building projects that mix statistics, visualization, and communication.
+
 ## 🚀 Proyectos
 
 | Proyecto | Descripción | Enlace |
@@ -20,15 +29,6 @@
 | 🐍 **Python-for-Quarto** | Repositorio de pruebas para crear HTML con Python y Quarto. Incluye una plantilla básica y un README explicativo. | [🔗](https://github.com/MarioC0093/Python-for-Quarto) |
 | 📈 **Modelos de respuesta múltiple nominal** | Ejemplo aplicado con la base Cracker para modelar respuestas categóricas nominales, con modelos de efectos fijos y aleatorios. | [🔗](https://github.com/MarioC0093/modelos-respuesta-multiple-nominal) |
 | 👥 **Software_GRUPAL_7** | Práctica de clase expositiva. Incluye código y explicación del desarrollo grupal. | [🔗](https://github.com/MarioC0093/Software_GRUPAL_7) |
----
-
-## 🎵 Spotify
-
-<div  href="https://open.spotify.com/user/marius0093"; align="center">
-   <img src="https://spotify-recently-played-readme.vercel.app/api?user=marius0093&count=5" alt="Spotify recently played" style="display: block; margin: auto;"/>
-</div>
-
----
 
 ## 💌 Contacto ⤵️
 
@@ -49,3 +49,8 @@
   <img src="https://img.shields.io/github/followers/MarioC0093?label=Follow&style=social" alt="GitHub Followers"/> </a>
 </p>
 
+## 🎵 Spotify
+
+<div  href="https://open.spotify.com/user/marius0093"; align="center">
+   <img src="https://spotify-recently-played-readme.vercel.app/api?user=marius0093&count=3" alt="Spotify recently played" style="display: block; margin: auto;"/>
+</div>
