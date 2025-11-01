@@ -10,27 +10,16 @@
 
 ## 👋 About me
 
-I’m a Senior Data Scientist with a strong background in Biostatistics.
+I’m a Senior Data Scientist with a solid background in Biostatistics.
 
-🔹 Experienced in designing, developing, and deploying predictive models (Logistic Regression, GAMs, XGBoost, classical Machine Learning and Deep Learning).  
-🔹 Skilled in Python (scikit-learn, XGBoost, NLP libraries) and R (ggplot2, dplyr, Quarto).  
-🔹 Strong expertise in descriptive analysis, reporting automation, metric definition and model validation.  
-🔹 Applied experience in healthcare projects, including predictive modeling with hospital data for clinical decision support. I have contributed through collaborations, internships, and publications at the Torrejón University Hospital and the Gregorio Marañón Hospital.  
-🔹 Teaching experience at CEMP, where I’ve shared knowledge in applied statistics and data science.
+🔹 Predictive modeling expertise: Logistic Regression, GAMs, XGBoost, and both classical and deep learning approaches.  
+🔹 Strong focus on validation and interpretability: metric design, bias assessment, and automated reporting pipelines.  
+🔹 Healthcare applications: predictive modeling and analytics for clinical decision support, developed through collaborations, internships, and publications with Torrejón University Hospital and Gregorio Marañón Hospital.  
+🔹 Teaching experience: instructor at CEMP, sharing practical insights in applied statistics and data science.  
 
-Outside of work, I enjoy combining data science with creativity like building projects that mix statistics, visualization, and communication.
+Outside of work, I enjoy combining data, storytelling and visualization, building projects that blend statistical rigor with creativity and communication.
 
-## 🚀 Proyectos
-
-| Proyecto | Descripción | Enlace |
-|---------|-------------|--------|
-| 📊 **Dataviz** | Portafolio de visualizaciones interactivas con `ggplot2`, `plotly` y `shiny`. Útil como plantilla para otros usuarios. | [🔗](https://github.com/MarioC0093/dataviz) |
-| 🧠 **NLP-Python** | Pipeline para procesamiento de lenguaje natural usando `spaCy`. Pensado como base para proyectos más complejos de IA generativa. | [🔗](https://github.com/MarioC0093/NPL-Python) |
-| 🐍 **Python-for-Quarto** | Repositorio de pruebas para crear HTML con Python y Quarto. Incluye una plantilla básica y un README explicativo. | [🔗](https://github.com/MarioC0093/Python-for-Quarto) |
-| 📈 **Modelos de respuesta múltiple nominal** | Ejemplo aplicado con la base Cracker para modelar respuestas categóricas nominales, con modelos de efectos fijos y aleatorios. | [🔗](https://github.com/MarioC0093/modelos-respuesta-multiple-nominal) |
-| 👥 **Software_GRUPAL_7** | Práctica de clase expositiva. Incluye código y explicación del desarrollo grupal. | [🔗](https://github.com/MarioC0093/Software_GRUPAL_7) |
-
-## 💌 Contacto ⤵️
+## 🌐 Socials
 
 <p align="left">
   <a href="mailto:mmario.ccamacho@gmail.com" title="Gmail">
@@ -42,12 +31,23 @@ Outside of work, I enjoy combining data science with creativity like building pr
   <a href="https://www.instagram.com/pltshow_" title="Instagram">
   <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&logo=instagram&logoColor=white" alt="Instagram"/></a>
 
-  <a href="https://www.google.com/maps/@-3.70281250,40.45456250/" title="Google Maps">
-  <img src="https://img.shields.io/badge/-Google_Maps-brightgreen?style=flat-square&logo=googlemaps&logoColor=white" alt="Google Maps"/></a>
-
   <a href="https://github.com/MarioC0093" title="GitHub" target="_blank">
   <img src="https://img.shields.io/github/followers/MarioC0093?label=Follow&style=social" alt="GitHub Followers"/> </a>
 </p>
+
+## 💻 Tech Stack
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+
+
+## 🚀 Projects
+
+| Proyecto | Descripción | Enlace |
+|---------|-------------|--------|
+| 📊 **Dataviz** | Portafolio de visualizaciones interactivas con `ggplot2`, `plotly` y `shiny`. Útil como plantilla para otros usuarios. | [🔗](https://github.com/MarioC0093/dataviz) |
+| 🧠 **NLP-Python** | Pipeline para procesamiento de lenguaje natural usando `spaCy`. Pensado como base para proyectos más complejos de IA generativa. | [🔗](https://github.com/MarioC0093/NPL-Python) |
+| 🐍 **Python-for-Quarto** | Repositorio de pruebas para crear HTML con Python y Quarto. Incluye una plantilla básica y un README explicativo. | [🔗](https://github.com/MarioC0093/Python-for-Quarto) |
+| 📈 **Modelos de respuesta múltiple nominal** | Ejemplo aplicado con la base Cracker para modelar respuestas categóricas nominales, con modelos de efectos fijos y aleatorios. | [🔗](https://github.com/MarioC0093/modelos-respuesta-multiple-nominal) |
+| 👥 **Software_GRUPAL_7** | Práctica de clase expositiva. Incluye código y explicación del desarrollo grupal. | [🔗](https://github.com/MarioC0093/Software_GRUPAL_7) |
 
 ## 🎵 Spotify
 
