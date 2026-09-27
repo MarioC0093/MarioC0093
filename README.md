@@ -1,4 +1,8 @@
+<h1 align="left">👋 Hi there</h1>
+
 **Bioestadístico · Data Scientist · Metodólogo de investigación**
+
+## ☝🏻 About me
 
 Soy científico de datos con background sólido en bioestadística. Trabajo en la intersección entre **estadística, ciencia de datos e investigación biomédica**, con especial interés en convertir preguntas clínicas y científicas en análisis reproducibles y metodológicamente sólidos. Priorizo la interpretabilidad de los resultados y un buen storytelling.
 
@@ -20,8 +24,7 @@ I am a senior data scientist with a strong background in biostatistics. I work a
 
 I also transform statistical methods into interactive, accessible tools for clinical researchers and other users. I develop web applications that enable simple statistical analysis, the use of one's own data, and the performance of common calculations.
 
-
-## Qué hago
+## 🚀 Qué hago
 
 * Definición de objetivos, hipótesis, variables y estrategias de análisis.
 * Diseño metodológico de estudios observacionales y experimentales.
@@ -31,13 +34,6 @@ I also transform statistical methods into interactive, accessible tools for clin
 * Machine Learning aplicado a problemas biomédicos.
 * Reproducibilidad y automatización de análisis.
 * Comunicación de resultados estadísticos para investigadores no técnicos.
-
-## Principales áreas de interés
-
-- Modelado estadístico
-- Predicción clínica
-- Investigación reproducible
-- Análisis y visualización de datos
 
 ## Stack
 
