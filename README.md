@@ -4,6 +4,10 @@
 
 ## ☝🏻 About me
 
+I am a senior data scientist with a strong background in biostatistics. I work at the intersection of **statistics, data science, and biomedical research**, with a particular interest in translating clinical and scientific questions into reproducible and methodologically sound analyses.
+
+---
+
 Soy científico de datos con background sólido en bioestadística. Trabajo en la intersección entre **estadística, ciencia de datos e investigación biomédica**, con especial interés en convertir preguntas clínicas y científicas en análisis reproducibles y metodológicamente sólidos. Priorizo la interpretabilidad de los resultados y un buen storytelling.
 
 - **Modelado predictivo.** Experiencia estadística clásica, machine learning y deep learning, con énfasis en su aplicación a problemas del mundo real.
@@ -12,17 +16,6 @@ Soy científico de datos con background sólido en bioestadística. Trabajo en l
 - **Docencia.** Profesor de bioestadística en el CEMP y tutor de metodología de la investigación en la Facultad de Medicina de la UFV.
 
 También transformo métodos estadísticos en herramientas interactivas y accesibles para investigadores clínicos y otros usuarios. Desarrollo aplicaciones web que permiten realizar análisis estadísticos sencillos, trabajar con datos propios y resolver cálculos habituales
-
----
-
-I am a senior data scientist with a strong background in biostatistics. I work at the intersection of **statistics, data science, and biomedical research**, with a particular interest in translating clinical and scientific questions into reproducible and methodologically sound analyses.
-
-- **Predictive modeling**. Experience in classical statistics, machine learning, and deep learning, with an emphasis on their application to real-world problems.
-- **Validation and interpretability.** Focus on model evaluation, metric design, bias assessment, and reproducible analytical workflows.
-- **Healthcare and biomedical research.** Epplication of statistics and data science to clinical research and Real-World Evidence (RWE).
-- **Teaching.** Biostatistics professor at CEMP and research methodology tutor at the UFV Faculty of Medicine.  
-
-I also transform statistical methods into interactive, accessible tools for clinical researchers and other users. I develop web applications that enable simple statistical analysis, the use of one's own data, and the performance of common calculations.
 
 ## 🚀 Qué hago
 
