@@ -1,25 +1,62 @@
-<h1 align="left">👋 Hi there</h1>
+**Bioestadístico · Data Scientist · Metodólogo de investigación**
 
-📌 *1, 1, 2, 3, 5, 8, 13, 21...*  
+Soy científico de datos con background sólido en bioestadística. Trabajo en la intersección entre **estadística, ciencia de datos e investigación biomédica**, con especial interés en convertir preguntas clínicas y científicas en análisis reproducibles y metodológicamente sólidos. Priorizo la interpretabilidad de los resultados y un buen storytelling.
 
-## 📊 GitHub Stats
-<div align="center">
-  <img title="Stats" src="https://github-readme-stats.vercel.app/api?username=MarioC0093&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=true" height="180" alt="GitHub Stats" />
-  <img title="Languages" src="https://github-readme-stats.vercel.app/api/top-langs?username=MarioC0093&layout=compact&langs_count=5&theme=dracula&hide_border=true" height="180" alt="Languages Stats" />
-</div>
+- **Modelado predictivo.** Experiencia estadística clásica, machine learning y deep learning, con énfasis en su aplicación a problemas del mundo real.
+- **Validación e interpretabilidad.** Enfoque en la evaluación de modelos, el diseño de métricas, la evaluación de sesgos y los flujos de trabajo analíticos reproducibles.
+- **Atención sanitaria e investigación biomédica.** Aplicación de la estadística y la ciencia de datos a la investigación clínica y al Real-World Evidence (RWE).
+- **Docencia.** Profesor de bioestadística en el CEMP y tutor de metodología de la investigación en la Facultad de Medicina de la UFV.
 
-## 👋 About me
+También transformo métodos estadísticos en herramientas interactivas y accesibles para investigadores clínicos y otros usuarios. Desarrollo aplicaciones web que permiten realizar análisis estadísticos sencillos, trabajar con datos propios y resolver cálculos habituales
 
-I’m a Senior Data Scientist with a solid background in Biostatistics.
+---
 
-🔹 Predictive modeling expertise: Logistic Regression, GAMs, XGBoost, and both classical and deep learning approaches.  
-🔹 Strong focus on validation and interpretability: metric design, bias assessment, and automated reporting pipelines.  
-🔹 Healthcare applications: predictive modeling and analytics for clinical decision support, developed through collaborations, internships, and publications with Torrejón University Hospital and Gregorio Marañón Hospital.  
-🔹 Teaching experience: instructor at CEMP, sharing practical insights in applied statistics and data science.  
+I am a senior data scientist with a strong background in biostatistics. I work at the intersection of **statistics, data science, and biomedical research**, with a particular interest in translating clinical and scientific questions into reproducible and methodologically sound analyses.
 
-Outside of work, I enjoy combining data, storytelling and visualization, building projects that blend statistical rigor with creativity and communication.
+- **Predictive modeling**. Experience in classical statistics, machine learning, and deep learning, with an emphasis on their application to real-world problems.
+- **Validation and interpretability.** Focus on model evaluation, metric design, bias assessment, and reproducible analytical workflows.
+- **Healthcare and biomedical research.** Epplication of statistics and data science to clinical research and Real-World Evidence (RWE).
+- **Teaching.** Biostatistics professor at CEMP and research methodology tutor at the UFV Faculty of Medicine.  
 
-## 🌐 Socials
+I also transform statistical methods into interactive, accessible tools for clinical researchers and other users. I develop web applications that enable simple statistical analysis, the use of one's own data, and the performance of common calculations.
+
+
+## Qué hago
+
+* Definición de objetivos, hipótesis, variables y estrategias de análisis.
+* Diseño metodológico de estudios observacionales y experimentales.
+* Análisis y preparación de datos.
+* Bioestadística aplicada a investigación clínica.
+* Modelización estadística y análisis multivariable.
+* Machine Learning aplicado a problemas biomédicos.
+* Reproducibilidad y automatización de análisis.
+* Comunicación de resultados estadísticos para investigadores no técnicos.
+
+## Principales áreas de interés
+
+- Modelado estadístico
+- Predicción clínica
+- Investigación reproducible
+- Análisis y visualización de datos
+
+## Stack
+
+![R](https://img.shields.io/badge/R-%23276DC3.svg?style=for-the-badge&logo=R&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
+![Quarto](https://img.shields.io/badge/Quarto-39729E?style=for-the-badge&logo=quarto&logoColor=white)
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+
+![REDCap](https://img.shields.io/badge/REDCap-CC0000?style=for-the-badge&logoColor=white)
+
+![Shiny](https://img.shields.io/badge/Shiny-75AADB?style=for-the-badge&logo=shiny&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+
+## Socials
 
 <p align="left">
   <a href="mailto:mmario.ccamacho@gmail.com" title="Gmail">
@@ -35,22 +72,8 @@ Outside of work, I enjoy combining data, storytelling and visualization, buildin
   <img src="https://img.shields.io/github/followers/MarioC0093?label=Follow&style=social" alt="GitHub Followers"/> </a>
 </p>
 
-## 💻 Tech Stack
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+## Spotify
 
-
-## 🚀 Projects
-
-| Proyecto | Descripción | Enlace |
-|---------|-------------|--------|
-| 📊 **Dataviz** | Portafolio de visualizaciones interactivas con `ggplot2`, `plotly` y `shiny`. Útil como plantilla para otros usuarios. | [🔗](https://github.com/MarioC0093/dataviz) |
-| 🧠 **NLP-Python** | Pipeline para procesamiento de lenguaje natural usando `spaCy`. Pensado como base para proyectos más complejos de IA generativa. | [🔗](https://github.com/MarioC0093/NPL-Python) |
-| 🐍 **Python-for-Quarto** | Repositorio de pruebas para crear HTML con Python y Quarto. Incluye una plantilla básica y un README explicativo. | [🔗](https://github.com/MarioC0093/Python-for-Quarto) |
-| 📈 **Modelos de respuesta múltiple nominal** | Ejemplo aplicado con la base Cracker para modelar respuestas categóricas nominales, con modelos de efectos fijos y aleatorios. | [🔗](https://github.com/MarioC0093/modelos-respuesta-multiple-nominal) |
-| 👥 **Software_GRUPAL_7** | Práctica de clase expositiva. Incluye código y explicación del desarrollo grupal. | [🔗](https://github.com/MarioC0093/Software_GRUPAL_7) |
-
-## 🎵 Spotify
-
-<div  href="https://open.spotify.com/user/marius0093"; align="center">
-   <img src="https://spotify-recently-played-readme.vercel.app/api?user=marius0093&count=3" alt="Spotify recently played" style="display: block; margin: auto;"/>
+<div href="https://open.spotify.com/user/marius0093"; align="center">
+  <img src="https://spotify-recently-played.jeffreyca.workers.dev/svg?user=marius0093&amp;avatar=0&count=5&username=off" alt="Spotify recently played" width="400"; style="display: margin: auto;"/>
 </div>
